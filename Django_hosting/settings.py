@@ -69,7 +69,7 @@ TEMPLATES = [
 ]
 
 # WSGI_APPLICATION = 'Django_hosting.wsgi.application'
-WSGI_APPLICATION = 'vercel_app.wsgi.app'
+WSGI_APPLICATION = ['vercel_app.wsgi.app','Django_hosting.wsgi.application']
 
 
 # Database
